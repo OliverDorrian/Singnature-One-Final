@@ -16,7 +16,7 @@ html, body {
     position: relative;
     background-color: #0C353F;
     height: fit-content;
-    background-image: url("landing\ img.png");
+    background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/08/landing-img.png");
     background-size: cover;
 
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ html, body {
 
 #section-3-flex-right {
     width: 50%;
-    background-image: url("Screenshot\ 2019-09-26\ at\ 17.57.51.png");
+    background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/08/ocean-view-1.png");
     background-size: cover;
 }
 
@@ -389,7 +389,7 @@ html, body {
     position: relative;
     height: fit-content;
     background-color: #122b31;
-    background-image: url("wave-haikei.svg");
+    background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/08/hakic.png");
     background-size: cover;
 }
 
