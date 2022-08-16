@@ -72,6 +72,10 @@ html, body {
     height: 100px;
     padding-bottom: 50px;
     background-color: white;
+}
+
+#section-2-3-flex {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -318,13 +322,13 @@ html, body {
 #section-5 #left-right-flex {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
 }
 
 #section-5 #left-flex {
-    width: 700px;
+    width: fit-content;
     margin-right: 20px;
     display: flex;
     flex-direction: column;
@@ -352,6 +356,8 @@ html, body {
 
 #section-6 {
     background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #section-6-title-container {
@@ -625,3 +631,15 @@ html, body {
     margin: 0;
     color: #D6A53F;
 }
+
+/* Max Width Changes */
+
+.max-width-changes {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1400px) {}
+
+/* Small Width Changes */
