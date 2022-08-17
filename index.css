@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-html, body {
+.page-id-6609 html, .page-id-6609 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -90,7 +90,9 @@ html, body {
 }
 
 .page-id-6609 #section-2-3-flex {
-  width: 100%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -107,8 +109,14 @@ html, body {
 .page-id-6609 .section-2-flex h1 {
   font-size: 3em;
   margin-right: 10px !important;
+  margin-left: 10px !important;
   color: #D6A53F;
 }
+
+.page-id-6609 #content h1 {
+  margin: 0;
+}
+
 
 .page-id-6609 .section-2-flex p {
   font-size: 2em;
@@ -190,7 +198,10 @@ html, body {
 }
 
 .page-id-6609 #section-3 ul {
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
 }
 
@@ -359,6 +370,10 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.page-id-6609 #section-5 #left-flex * {
+  margin-bottom: 10px
 }
 
 .page-id-6609 #section-5 #section-paragraph {
@@ -613,7 +628,8 @@ html, body {
 }
 
 .page-id-6609 #section-10 #left-flex {
-  width: 80% !important;
+  margin-top: 15px;
+  width: 90% !important;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -814,6 +830,27 @@ html, body {
 
 @media only screen and (max-width: 960px) {
 
+  /* Font Size Decreases*/
+  .page-id-6609 #section-11-title {
+    font-size: 4em;
+  }
+
+  .page-id-6609 #section-10-title-gold {
+    font-size: 3em;
+  }
+
+  .page-id-6609 #section-9-title {
+    font-size: 3em;
+  }
+
+  .page-id-6609 #section-8-title {
+    font-size: 3em;
+  }
+
+  .page-id-6609 #section-6-title {
+    font-size: 3em;
+  }
+
   /* Landing Section */
 
   .page-id-6609 #section-1 {
@@ -926,7 +963,7 @@ html, body {
 
   /* Signature One Video */
   .page-id-6609 .max-width-changes iframe {
-    height: 600px;
+    height: 650px;
   }
 
   /* Signature One Location */
@@ -1020,7 +1057,6 @@ html, body {
   .page-id-6609 .lot {
     width: unset;
     max-width: 400px;
-    margin-bottom: 100px;
   }
 
   .page-id-6609 .lot-info p {
@@ -1081,7 +1117,7 @@ html, body {
   }
 
   .page-id-6609 .section-2-flex p {
-    margin: 0;
+    margin: 0 !important;
     text-align: center;
   }
 
@@ -1098,6 +1134,11 @@ html, body {
     font-size: 1.5em;
   }
 
+  /* Signature One Video */
+  .page-id-6609 .max-width-changes iframe {
+    height: 400px;
+  }
+
   /* Key Attractions */
   .page-id-6609 #section-9 .attraction-row-img {
     width: 250px;
@@ -1112,12 +1153,12 @@ html, body {
   }
 
   .page-id-6609 #section-9 .attraction-row-text h1 {
+    text-align: center;
     font-size: 1.75em;
   }
 
   /* Heritage Beach  */
   .page-id-6609 #section-10 #left-flex {
-    padding: 20px;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -1148,5 +1189,10 @@ html, body {
 
   .page-id-6609 #section-9 .attraction-row-text {
     width: 100%;
+  }
+
+  /* Signature One Video */
+  .page-id-6609 .max-width-changes iframe {
+    height: 350px;
   }
 }
