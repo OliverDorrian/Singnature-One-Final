@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-html, body {
+.page-id-6609 html, .page-id-6609 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -51,7 +51,6 @@ html, body {
 
 
 .page-id-6609 #section-paragraph {
-  font-weight: bold;
   color: white;
   font-size: 1.5em;
 }
@@ -89,17 +88,18 @@ html, body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .page-id-6609 .section-2-flex h1 {
   font-size: 3em;
-  margin-right: 10px;
+  margin-right: 10px !important;
   color: #D6A53F;
 }
 
 .page-id-6609 .section-2-flex p {
   font-size: 2em;
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
 
 .page-id-6609 .section-2-line {
@@ -252,13 +252,13 @@ html, body {
   text-align: center;
   color: #BC973F;
   display: block;
-  font-size: 4em;
+  font-size: 2em;
   margin-top: 0.75em;
 }
 
 .page-id-6609 #section-4 blockquote p {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: #000000 !important;
 }
 
@@ -463,8 +463,9 @@ html, body {
 }
 
 .page-id-6609 #section-7-listing-title {
+  color: black;
   display: inline;
-  margin-top: 10px;
+  padding: 10px;
   border: 2px solid #D6A53F;
   border-left: unset;
   border-right: unset;
@@ -604,7 +605,6 @@ html, body {
 }
 
 .page-id-6609 #section-10 #section-paragraph {
-  font-weight: bold;
   color: white;
   font-size: 1.5em;
 }
@@ -633,8 +633,10 @@ html, body {
 }
 
 .page-id-6609 #section-10-flex-img {
-  width: 30%;
-  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: auto;
+  height: 65%;
 }
 
 /* Max Width Changes */
@@ -791,16 +793,24 @@ html, body {
   /* Landing Section */
 
   .page-id-6609 #section-1 {
-    padding-top: 75px;
     padding-bottom: 75px;
   }
 
+  .page-id-6609 #left-flex .noluck {
+    display: none;
+  }
+
+  .page-id-6609 #section-paragraph {
+    text-align: center;
+    font-size: 1.3em;
+  }
 
   .page-id-6609 #left-flex * {
     margin-left: 0 !important;
   }
 
   .page-id-6609 #section-title {
+    color: #D6A53F !important;
     text-align: center !important;
   }
 
@@ -824,20 +834,30 @@ html, body {
     font-size: 2em;
   }
 
+
+  .page-id-6609 #section-3-flex-left-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   /* About Us */
   .page-id-6609 #section-3-flex-left-right {
     flex-direction: column;
   }
 
   .page-id-6609 #section-3-flex-left {
-    width: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .page-id-6609 #section-3-flex-img {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 80%;
+    width: 100%;
   }
 
   /* Quotes */
@@ -871,6 +891,11 @@ html, body {
     width: 300px;
   }
 
+  .page-id-6609 #section-5 #left-flex p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   /* Signature One Video */
   .page-id-6609 .max-width-changes iframe {
     height: 600px;
@@ -886,6 +911,24 @@ html, body {
     width: 95%;
   }
 
+  .page-id-6609 .section-7-listing-info {
+    padding: 20px;
+  }
+
+  .page-id-6609 #section-7-listing-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-id-6609 #section-7 #content h1 {
+    text-align: center;
+  }
+
+  .page-id-6609 #section-7 #content p {
+    padding-top: 20px;
+    text-align: center;
+  }
+
   /* Key Attractions */
   .page-id-6609 #section-9 .padding-div {
     margin: 0;
@@ -899,6 +942,8 @@ html, body {
   .page-id-6609 #section-9 .attraction-row-text {
     width: calc(100% - 300px);
   }
+
+
 
   /* Heritage Beach */
   .page-id-6609 #section-10 #left-right-flex {
@@ -977,7 +1022,7 @@ html, body {
   .page-id-6609 #section-1 #section-paragraph {
     text-align: center !important;
     font-size: 1.3em;
-    width: 80%;
+    width: 97%;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -988,6 +1033,15 @@ html, body {
     width: unset;
     margin-left: 10px;
     margin-right: 10px;
+    flex-direction: column;
+  }
+
+  .page-id-6609 #section-2 #content h1 {
+    margin: 0;
+  }
+
+  .page-id-6609 #section-2 #content p {
+    margin: 0;
   }
 
   .page-id-6609 .section-2-flex {
@@ -1070,5 +1124,3 @@ html, body {
     width: 100%;
   }
 }
-
-@media only screen and (max-width: 400px) {}
