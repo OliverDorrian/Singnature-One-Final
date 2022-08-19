@@ -24,23 +24,6 @@ html, body {
 
 /* Section 1 */
 /* Landing Section*/
-/*Fixs*/
-.page-id-6609 .container {
-  width: unset;
-}
-
-.page-id-6609 hr {
-  height: unset;
-}
-
-.page-id-6609 .container {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-
-/* Section 1 */
-/* Landing Section*/
 .page-id-6609 #section-1 {
   padding-top: 150px;
   position: relative;
@@ -624,7 +607,6 @@ html, body {
 .page-id-6609 #section-10-title-container {
   padding-top: 50px;
   padding-bottom: 50px;
-
 }
 
 .page-id-6609 #section-10-title {
@@ -837,13 +819,7 @@ html, body {
   text-decoration: none;
 }
 
-
-
-
-@media only screen and (max-width: 1400px) {}
-
 /* Small Width Changes */
-
 @media only screen and (max-width: 960px) {
 
   /* Font Size Decreases*/
@@ -868,7 +844,6 @@ html, body {
   }
 
   /* Landing Section */
-
   .page-id-6609 #section-1 {
     padding-bottom: 75px;
   }
@@ -896,7 +871,6 @@ html, body {
   }
 
   /* Fact Banner */
-
   .page-id-6609 #section-2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -910,7 +884,6 @@ html, body {
   .page-id-6609 .section-2-flex h1 {
     font-size: 2em;
   }
-
 
   .page-id-6609 #section-3-flex-left-inner {
     padding-top: 10px;
@@ -942,7 +915,6 @@ html, body {
   }
 
   /* Quotes */
-
   .page-id-6609 #section-4 blockquote p {
     font-size: 2em;
   }
@@ -1106,7 +1078,6 @@ html, body {
   }
 
   /* Fact Banner */
-
   .page-id-6609 #section-2-3-flex {
     width: unset;
     margin-left: 10px;
@@ -1189,7 +1160,6 @@ html, body {
 @media only screen and (max-width: 525px) {
 
   /* Property Types */
-
   .page-id-6609 .section-7-listing-info {
     padding: 20px;
   }
